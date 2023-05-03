@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+* {
+  font-family: "Righteous", cursive;
+}
+
+
+body{
+  background-color:rgb(0, 102, 255);
+}
+
+#logotipo {
+  
+  border-radius: 150px;
+  width: 220px;
+  height: 220px;
+  margin-left: 100px;
+}
+
+
+
+.col{
+  background-color:rgb(0, 102, 255);
+  height: 250px;
+  width: 100px;
+  
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#mision{
+  font-size: 30px;
+}
+
+#vision{
+  font-size: 30px;
+}
+
+
+#generales{
+  font-size: 30px;
+}
+
+#valores{
+  font-size: 30px;
+}
+
+
+.carousel-item ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  opacity: 0.7;
+}
+
+.carousel-caption {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.carousel-caption h5 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  top: 2rem;
+}
+
+#bienvenidos{
+  font-size: 30px;
+  position: static;
+}
+
+
+.slider-btn {
+  margin-top: 30px;
+}
+
+slider-btn btn {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 0;
+  padding: 1.5em 2rem;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+.slider-btn .btn-2 {
+  color: #111010;
+  background-color: white;
+}
+
+#menu:hover {
+  color: #e74c3c;
+}
+
+
+#fila{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#videos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+/* ///////////////////////////////////////////// */
